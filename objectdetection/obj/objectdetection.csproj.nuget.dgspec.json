@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/shuaga/Projects/objectdetection/objectdetection/objectdetection.csproj": {}
+  },
+  "projects": {
+    "/Users/shuaga/Projects/objectdetection/objectdetection/objectdetection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/shuaga/Projects/objectdetection/objectdetection/objectdetection.csproj",
+        "projectName": "objectdetection",
+        "projectPath": "/Users/shuaga/Projects/objectdetection/objectdetection/objectdetection.csproj",
+        "packagesPath": "/Users/shuaga/.nuget/packages/",
+        "outputPath": "/Users/shuaga/Projects/objectdetection/objectdetection/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/shuaga/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid13.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/msresearch/_packaging/SeeingAI/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid13.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid13.0": {
+          "dependencies": {
+            "Xamarin.AndroidX.AppCompat": {
+              "target": "Package",
+              "version": "[1.6.0.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.4, )"
+            },
+            "Xamarin.Google.Android.Material": {
+              "target": "Package",
+              "version": "[1.7.0.2, )"
+            },
+            "Xamarin.Google.MLKit.ObjectDetection": {
+              "target": "Package",
+              "version": "[117.0.0.3, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}
